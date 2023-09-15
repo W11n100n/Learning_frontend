@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywoards" content="практика, сайт, обучение">
+        <meta name="description" content="Сайт, который я делаю для обучения в html">
+        <title>Практика html 1.0</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            header
+            <p><strong>Каша с яйцами - рецепт</strong></p>
+            <p><time datetime="2023-07-27T09:42">09:42</time></p>
+        </header>
+        <main>
+            <section>
+                <artcile>
+                    <p>Каждый <i>студент</i> имеет такую проблему как <b>готовка</b></p>
+                    <p>Сегодня как раз мы разберемся с этой <i>проблемой</i> и приготовим</p>
+                    <p>кашу с яйцами, я <em>просто обожаю</em> это блюдо</p>
+                    <p>Ссылка на <a href="https://vk.com/filar09">мой профиль</a></p>
+                    <p>Скачать <a href="recipe.pdf" download>прикольный рецептик</a></p>
+                </artcile>
+                <article>
+                    <p id="ingredients">Ингредиенты</p>
+                    <ul>
+                        <li>Крупа любая
+                            <ol reversed>
+                                <li>Гречневая</li>
+                                <li>Пшено</li>
+                            </ol>
+                        </li>
+                        <li>Яйца - 5<sub>шт</sub>.</li>
+                    </ul>
+                    <p>Также вам понадобяться следующие инструменты</p>
+                    <dl>
+                        <dt>Кастрюля</dt>
+                        <dd>Чтобы сварить крупу</dd>
+                        <dt>Сковородка</dt>
+                        <dd>Чтобы жарить</dd>
+                        <dt>Лопатка</dt>
+                        <dd>Чтобы размешивать</dd>
+                    </dl>
+                </article>
+            </section>
+            <section>
+                <p>Готовка</p>
+                <ol>
+                    <li>Берем кастрюлю, кипятми в ней воду, добавляя туда соли</li>
+                    <li>Вода вскипела, можем добавлять кашу, <strong>1-2 пакетика</strong> и варим <b>&lt;15-20&gt;</b> минут</li>
+                </ol>
+                <p>После того как сварили кашу, приступаем к жарке</p>
+                <div class="cooking">
+                    <ol start="3">
+                        <li>Насыпаем кашу в сковородку, нагреваем и мешаем пока не стала <i>рассыпчатой</i></li>
+                        <li><ins>После того как крупа стала <span>рассыпчатой</span>, добавляем <del><sup>5</sup></del> 5 яиц</ins></li>
+                        <li>Постепенно помешиваем пока яйцо не схватится и не будет в твердом агрегатном состоянии</li>
+                    </ol>
+                </div>
+                <figure>
+                    <img src="ingredient.jpg" width="300" height="200" alt="Каша с яцами">
+                    <figcaption>Каша с яйцом</figcaption>
+                </figure>
+                <blockquote>
+                    <q>Готово! Приятного аппетита!</q><br><cite>Даня</cite>
+                </blockquote>
+            </section>
+            <section>
+                <pre>
+А вот и код списка инструментов
+                    <code>
+    &ltdl&gt
+        &lt;dt&gt;Кастрюля&lt;/dt&gt;
+        &lt;dd&gt;Чтобы сварить крупу&lt;/dd&gt;
+        &lt;dt&gt;Сковородка&lt;/dt&gt;
+        &lt;dd&gt;Чтобы жарить&lt;/dd&gt;
+        &lt;dt&gt;Лопатка&lt;/dt&gt;
+        &lt;dd&gt;Чтобы размешивать&lt;/dd&gt;
+    &lt/dl&gt
+                    </code>
+                </pre>
+                <p>Не забывайте про ингредиенты: <a href="#ingredients">Ингредиенты</a></p>
+            </section>
+            <aside>Тут могла быть ваша реклама</aside>
+        </main>
+        <footer>
+            <p>Подвал сайта</p>
+        </footer>
+    </body>
+</html>
